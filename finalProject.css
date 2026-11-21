@@ -1,0 +1,336 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Nav Bar */
+.NavBar {
+    padding: 1px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo {
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: #17202a;
+}
+
+span {
+    color: #DB9838;
+}
+
+.Links {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.Links a{
+    text-decoration: none;
+    color: #888888;
+}
+
+.Links a:hover {
+    color: #DB9838;
+}
+
+.ExploreButton {
+    background-color: #17202a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 20px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Home */
+.Home {
+    background: linear-gradient(90deg, #3E464E, #989DA3, #BBBFC4);
+    padding: 60px 150px;
+}
+
+.Title {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #e9a23b;
+}
+
+.HomeHeading {
+    font-family: Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    color: #fff;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.HomeDescription {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #eee;
+}
+
+.StartExplore {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #e9a23b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+}
+
+/* Destinations */
+.Destinations {
+    padding: 70px;
+    background-color: #F8F9FC;
+}
+
+.DestinationIntro {
+    text-align: center;
+}
+
+.DestinationHeading {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #17202a;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.DestinationDescription {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+}
+
+.InfoCard {
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 50px;
+    display: flex;
+    gap: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.TextSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.CityNumber {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(36, 80%, 57%);
+    margin: 0%;
+}
+
+.Country {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #999;
+}
+
+.CityName {
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #17202a;
+    margin: 0%;
+}
+
+.CityBio {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #777;
+}
+
+.CityInfo {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 0px;
+    row-gap: 5px;
+}
+
+.item h4 {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #17202a;
+    margin: 0 0 10px;
+}
+
+.item p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+}
+
+.ExploreMore {
+    margin-top: 20px;
+    background-color: #17202a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ExploreMore:hover {
+    background-color: #DB9838;
+}
+
+.ImgSide {
+    width: 50%;
+    position: relative;
+    min-height: 430px;
+}
+
+.ImgSide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.DestinationNumber {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: white;
+    padding: 18px 25px;
+    border-radius: 8px;
+    margin: 0%;
+}
+
+.Dest {
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #999;
+}
+
+.DestNum {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #e9a23b;
+    margin: 0%;
+}
+
+.Navigation {
+
+      display: flex;
+  align-items: center;      /* centers dots vertically with the buttons */
+  justify-content: center;  /* centers the whole row horizontally */
+  gap: 24px;   
+  
+}
+
+.PreviousButton {
+    margin-top: 30px;
+    background-color: #17202a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.PreviousButton:hover {
+    background-color: #DB9838;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.NextButton {
+    margin-top: 30px;
+    background-color: #17202a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.NextButton:hover {
+    background-color: #DB9838;
+}
+
+/* About Us */
+.AboutUs {
+    background-color: #17202a;
+    padding: 40px;
+    text-align: center
+}
+
+.FooterHeading {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.FooterDescription {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.FooterEnding {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaa;
+    margin-top: 75px;
+}
